@@ -1,11 +1,19 @@
 import './App.css';
 
 function App() {
+    
+  //   const myElement = (
+  //   <div >
+  //     <p>I am a paragraph 8.</p>
+  //     <p>I am a paragraph too.</p>
+  //   </div>
+  //  );
+
+
+
   return (
     <div className="App">
-
-        <div id="root">Given</div>
-        <script type="module" src="/src/jsxProcs/proc.jsx"></script>   
+     
      {/*  <header className="App-header">
        
         <p>
