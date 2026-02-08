@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import shangrilaImage from './Image/shangrila.jpg';
+import './jsxProcs/proc.jsx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
