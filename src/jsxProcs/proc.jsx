@@ -2,11 +2,22 @@ import { createRoot } from 'react-dom/client'
 
 const myElement = (
  <div >
-    <p>I am a paragraph 1.</p>
-    <p>I am a paragraph too.</p>
+    <p>ASP.NET conference March 2026 </p>
+    <p>You are invited to attend grand opening of ASP future prospectives.</p>
   </div>
 );
 
+const ThirdElement = (
+ <div >
+    <p>COBOL revival conference </p>
+    <p>Special event to launch legacy systems!</p>
+  </div>
+);
 createRoot(document.getElementById('root')).render(
-  myElement
+  <div>
+
+    {myElement}
+    {ThirdElement}
+  </div>
+  
 );
