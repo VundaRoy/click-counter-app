@@ -8,9 +8,13 @@ const myElement = (
 );
 
 const ThirdElement = (
- <div style={{backgroundColor: 'bisque', width:450, marginLeft:100}} >
+ <div style={{backgroundColor: 'bisque', width:450, textAlign: 'center', marginLeft:'30%'}} >
     <p>COBOL revival conference </p>
-    <p>Special event to launch legacy systems!</p>
+    <p>Special event to launch legacy systems!
+      We are gonna launch a spectaculr come back for COBOL
+      Be prepared for cringe moments in software development
+      as we highlight the best and dumbest decisions ever made!
+    </p>
   </div>
 );
 createRoot(document.getElementById('root')).render(
