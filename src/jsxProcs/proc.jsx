@@ -8,7 +8,7 @@ const myElement = (
 );
 
 const ThirdElement = (
- <div style={{backgroundColor: 'bisque', width:450}} >
+ <div style={{backgroundColor: 'bisque', width:450, marginLeft:100}} >
     <p>COBOL revival conference </p>
     <p>Special event to launch legacy systems!</p>
   </div>
